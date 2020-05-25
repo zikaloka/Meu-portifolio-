@@ -1,0 +1,58 @@
+.progress {
+    border-radius: 16px !important;
+    margin-bottom: 10px;
+}
+.progress-bar{
+    border-radius: 16px;
+    background: black !important;
+}
+.skills-bar{
+    margin-bottom: 6px;
+    font-weight: 600;
+    padding: 50px;
+}
+.subtitulo{
+  padding-left: 50px;  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.corprimaria{
+
+    background-color: black !important;
+}
+
+
+.informações{
+    margin-bottom: 6px;
+    font-weight: 600;
+    padding: 50px;
+}
+
+
+.icones {
+    padding-left: 5px;
+}
+
+.titulosBrancos {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+}
+
+.titulospretos {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: 	#1C1C1C
+}
+
+.removed-padding{
+    margin: 0 ;
+    padding: 0; 
+    
+}
