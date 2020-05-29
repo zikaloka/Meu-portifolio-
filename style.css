@@ -4,7 +4,7 @@
 }
 .progress-bar{
     border-radius: 16px;
-    background: black !important;
+    background: #08518e !important;
 }
 .skills-bar{
     margin-bottom: 6px;
@@ -18,9 +18,13 @@
 
 .corprimaria{
 
-    background-color: black !important;
+    background-color:#2b2c31 !important;
 }
 
+.corsecundaria{
+
+    background-color: white;
+}
 
 .informações{
     margin-bottom: 6px;
@@ -33,26 +37,36 @@
     padding-left: 5px;
 }
 
-.titulosBrancos {
+.titulosazul {
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: white;
+    color: 	#c3c9c3;
 }
 
-.titulospretos {
+.titulosbrancos {
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: 	#1C1C1C
+    color: 	white
+    
 }
+
 
 .removed-padding{
     margin: 0 ;
     padding: 0; 
     
+}
+
+.textofooter{
+    margin: 0px;
+    padding: 10px;
+    padding-bottom: 15px;
+    
+   
 }
