@@ -1,16 +1,43 @@
+* {
+    border-radius: 0 !important;
+}
+
+.round-edges {
+    border-radius: 10px !important;
+}
+
+.round-bot {
+    border-bottom-left-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+
+.round-top {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.foto-perfil {
+    height: 100%;
+    max-width: auto;
+    border-radius: 100px !important;
+}
+
 .progress {
     border-radius: 16px !important;
     margin-bottom: 10px;
 }
+
 .progress-bar{
     border-radius: 16px;
     background: #08518e !important;
 }
+
 .skills-bar{
     margin-bottom: 6px;
     font-weight: 600;
     padding: 50px;
 }
+
 .subtitulo{
   padding-left: 50px;  
   font-family: Arial, Helvetica, sans-serif;
@@ -38,6 +65,19 @@
 }
 
 .titulosazul {
+    text-decoration: underline;
+    text-underline-position: under;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color:  #08518e;
+}
+
+.fontecinza {
+    color:  #c3c9c3;
+}
+
+.tituloscinza {
     text-decoration: underline;
     text-underline-position: under;
     padding-bottom: 20px;
