@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href=style.css type="text/css" >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Portfólio</title>
+  <link rel="stylesheet" href=style.css type="text/css" >
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -26,10 +26,10 @@
       <ul class="navbar-nav mr-auto">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link fontecinza" href="#Sobre mim">Sobre mim</a>
+            <a class="nav-link fontecinza" href="#Skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link fontecinza" href="#Objetivo">Objetivo</a>
+            <a class="nav-link fontecinza" href="#SobreMim">Sobre mim</a>
           </li>
           </li>
           <li class="nav-item">
@@ -53,26 +53,27 @@
     </div>
   </section>
 
+  <section id="Skills">
+    <h2 class="subtitulo titulosazul">Skills</h2> 
 
-  <h2 class="subtitulo titulosazul">Skills</h2> 
-
-  <div class="skills-bar ">
-    <p>HTML</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">20%</div>
+    <div class="skills-bar ">
+      <p>HTML</p>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 20%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">20%</div>
+      </div>
+      <p>CSS</p>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">15%</div>
+      </div>  
+      <p>PHP</p>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
+      </div>  
     </div>
-    <p>CSS</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">15%</div>
-    </div>  
-    <p>PHP</p>
-    <div class="progress">
-      <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">10%</div>
-    </div>  
-  </div>
+  </section>
 
   <!-- Sobre Mim e Objetivo -->
-  <section class=  "jumbotron text-center corprimaria removed-padding round-edges "  >
+  <section id="SobreMim" class= "jumbotron text-center corprimaria removed-padding round-edges">
     <div class="container">
       <h2 class="jumbotron-heading tituloscinza">Sobre Mim</h2>
       <p class="lead fontecinza">Olá Me chamo Matheus Ferreira da Silva, Tenho 19 anos Estou cursando Sistemas de Informações, Estudante motivado pela programação e designer de jogos e nas horas vagas faço Live.</p>
@@ -85,7 +86,7 @@
 
   <!--Contato-->
   
-  <section Id="Contato" 
+  <section id="Contato"> 
     ></div>
         <div class="container-fluid">
             <h3 style="padding-top:90px;" class=" corPrimaria text-center tituloscinza">Contato</h3>
@@ -93,12 +94,16 @@
                     href="azeluite@gmail class="></azeluite@gmail>azeluite@gmail.com👈</a> </h4>
         </div>
     </div>
+  </section>
 
   <!--Footer-->
   <footer class="textofooter text-center corprimaria tituloscinza round-top">
     <p>Copyright 2020 Matheus Portfólio</p>
   </footer>
 
-
+  <script src="smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]')
+  </script>
 </body>
 </html>
